@@ -1,0 +1,43 @@
+AllowUserModifications: false
+name: skorpion
+displayname: '&6Skorpion vz.61'
+id: 77
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+weapontype: SMG
+weaponsounds: bulletsmallauto
+_VALID_WEAPON_TYPES: 'PISTOL, SMG, RPG, RIFLE, SHOTGUN, SNIPER, BIG_GUN, GRENADES,
+  SMOKE_GRENADES, FLASHBANGS, INCENDARY_GRENADES, MINES, MEELEE, MISC, AMMO, KEVLAR,
+  MEDKIT, LAZER, '
+enableIronSights: true
+ammotype: 9mm
+damage: 2
+maxbullets: 20
+price: 1600
+firerate: 3
+isAutomatic: true
+invalid: false
+lore: []
+material: DIAMOND_AXE
+durability: 1000
+setZoomLevel: 0
+sway: 0.3
+delayForReload: 1.5
+delayForShoot: 0.3
+bullets-per-shot: 1
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 2
+swayMultiplier: 2

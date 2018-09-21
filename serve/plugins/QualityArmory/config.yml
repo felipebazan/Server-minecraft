@@ -1,0 +1,150 @@
+
+#  Quality Armory: A quality gun plugin similar to CrackShot.
+#
+#FAQ:
+#Q: I do not want to use your resourcepack. How do I disable it?
+#A: Set "useDefaultResourcepack" to false if you do not want any resourcepacks. If you want to use another resourcepack instead, set "DefaultResoucepackOverride" to true and replace "DefaultResoucepack" with the link to the resourcepack you want to use.
+#
+#Q: I want to disable friendly fire, but the "FriendlyFireEnabled" value does not do anything
+#A: Friendly fire uses Parties to determine who is a part of the same group. Download "Parties" to enable this feature
+#
+#Q: I want guns to degrade as they are used.
+#A: Set "EnableWeaponDurability" to true. Note that old guns will break because of this, so users will need to craft/buy new guns.
+#
+#Q:I do not want users to be able to shoot through leaves
+#A: Set the "leaves" value under "BlockBullets" to true
+#
+#Q:When players join, I want them to automatically download the resourcepack.
+#A: Set "sendOnJoin" to true to force all users to use the resourcepack
+#
+#Q: I want the bullet count to show on the items icon.
+#A: Set "enableVisableBulletCounts" to true. Note that minecraft was not built to handle stacks of hoes, so there is a CHANCE for that the gun may get glitched or duplicated. 
+#
+#Q: My server is lagging because there are too many particles when shooting
+#A: Increase "BulletTrailsSpacing" from 0.5 to 1 or 2.
+#
+#Q: One of your guns is overpowered/too cheap/ unbalanced
+#A: You can configure the price, damage, and crafting ingredients under the "Weapon","Ammo","Misc", and "crafting" tabs
+#
+#Q: I want to add new guns/ammo to the plugin
+#A: Follow this tutoiral: https://www.spigotmc.org/wiki/how-to-create-new-guns-with-quality-armory/
+
+unknownTranslationKeyFixer: false
+Enable_Creation_Of_Default_Files: true
+KickPlayerIfDeniedResourcepack: false
+hideTextureWarnings: false
+ENABLE-DEBUG: false
+Material_For_IronSightToggle_Item: DIAMOND_AXE
+Data_For_IronSightToggle_Item: 21
+EnableWeaponDurability: false
+enablePrimaryWeaponLimiter: false
+weaponlimiter_primaries: 2
+weaponlimiter_secondaries: 2
+Swap-Reload-and-Shooting-Controls: false
+enableReloadingWhenSwapToOffhand: true
+IronSightsOnRightClick: false
+automaticallyReloadGunWhenOutOfAmmo: false
+allowGunReload: true
+gravityConstantForDropoffCalculations: 0.05
+generalModifiers:
+  sway:
+    Run: 2.0
+    Walk: 1.5
+    Ironsights: 0.8
+    Sneak: 0.7
+FriendlyFireEnabled: false
+useDefaultResourcepack: true
+DefaultResourcepackOverride: false
+DefaultResourcepack: https://www.dropbox.com/s/rjunve842c6uws9/QualityArmoryv1.0.29.zip?dl=1
+Auto-Detect-Resourcepack: false
+sendOnJoin: false
+sendTitleOnJoin: false
+SecondsTillRPIsSent: 0.0
+Enable_Headshot_Instantkill: true
+Enable_Headshot_Notification_Sound: true
+Enable_Headshot_Sounds: true
+Headshot_Notification_Sound: entity.experience_orb.pickup
+BulletDetection:
+  step: 0.1
+enableBulletTrails: true
+BulletTrailsSpacing: 0.5
+BlockBullets:
+  door: false
+  halfslabs: false
+  leaves: false
+  water: false
+  glass: false
+enableInteract:
+  Chests: false
+overrideAnvil: false
+enableVisibleBulletCounts: false
+showOutOfAmmoOnItem: false
+enableExplosionDamage: false
+enableExplosionDamageDrop: false
+enableCrafting: true
+enableShop: true
+AUTO-UPDATE: true
+enable_lore_gun-info_messages: true
+enable_lore_control-help_messages: true
+disableHotbarMessages:
+  OutOfAmmo: false
+  Shoot: false
+  Reload: false
+Break-Block-Texture-If-Shot: true
+experimental:
+  BulletWounds:
+    InitialBloodLevel: 100.0
+    BloodIncreasePerSecond: 0.01
+    Medkit_Heal_Bloodloss_Rate: 0.05
+    enableBleeding: false
+Order-Shop-By-Price: false
+ignoreArmorStands: false
+EnableGlowEffects: false
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+showOutOfAmmoOnTitle: false
+showReloadingTitle: false
+
+
+
+
+
+#Use this if you are expierincing a problem. 
+
+#If you need to change the material used for guns:
+
+
+
+#Enables weapon duribility and degredation on every shot.
+
+
+#Configures Primary Weapons Systems
+
+
+
+
+#QA Controls
+
+
+
+
+
+
+#Modifiers for QA systems
+
+
+
+
+
+
+
+
+#If parties is enabled, FriendlyFire will determine if players can shoot members of their party.
+
+
+#Resourcepack values
+
+
+
+
+

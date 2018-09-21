@@ -1,0 +1,15 @@
+HOW_TO_USE: Below is just the required values to create a new attachment for the 'basegun'.
+  If you want to modify more parts of the gun, copy the value you want to change from
+  the 'base' gun and paste it here with the value you want.
+AllowUserModifications: false
+invalid: true
+name: example_attachment
+displayname: Attachment For AK47
+lore: []
+id: 28
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+price: 100
+material: DIAMOND_AXE
+baseGun: AK47

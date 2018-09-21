@@ -1,0 +1,17 @@
+AllowUserModifications: false
+invalid: true
+name: example
+displayname: 7fDisplayname
+lore:
+- Example
+- Lore
+id: 27
+craftingRequirements:
+- IRON_INGOT,0,1
+- GUNPOWDER,0,1
+- REDSTONE,0,1
+craftingReturnAmount: 16
+price: 1
+maxAmount: 16
+material: DIAMOND_AXE
+piercingSeverity: 1.0

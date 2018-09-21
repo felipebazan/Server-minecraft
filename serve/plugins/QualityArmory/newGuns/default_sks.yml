@@ -1,0 +1,44 @@
+AllowUserModifications: false
+name: sks
+displayname: '&6SKS-45'
+id: 78
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,12
+- OAK_PLANKS,0,2
+- REDSTONE,0,5
+weapontype: SNIPER
+weaponsounds: bulletbig
+_VALID_WEAPON_TYPES: 'PISTOL, SMG, RPG, RIFLE, SHOTGUN, SNIPER, BIG_GUN, GRENADES,
+  SMOKE_GRENADES, FLASHBANGS, INCENDARY_GRENADES, MINES, MEELEE, MISC, AMMO, KEVLAR,
+  MEDKIT, LAZER, '
+enableIronSights: true
+ammotype: '762'
+damage: 7
+maxbullets: 10
+price: 2000
+delayForShoot: 0.6
+setZoomLevel: 6
+maxBulletDistance: 290
+swayMultiplier: 3.0
+invalid: false
+lore: []
+material: DIAMOND_AXE
+durability: 1000
+sway: 0.3
+delayForReload: 1.5
+bullets-per-shot: 1
+isAutomatic: false
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+firerate: 1
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+Version_18_Support: false
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 2

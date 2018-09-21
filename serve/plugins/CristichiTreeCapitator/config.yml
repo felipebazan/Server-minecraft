@@ -1,0 +1,20 @@
+# [CristichiTreeCapitator]
+# Help:
+# 	max_destroy_at_once: Defines the maximun number of blocks destroyed at once. -1 for unbounded (use at your own risk).
+# 		Default: 1500
+# 	replant_trees: Defines if trees should be auto-replanted.
+# 		Default: true
+# 	invincible_replant: Activates invincible sapplings (if they were replanted by this plugin). Ignored if replant_trees is false.
+# 		Default: false
+# 	vip_mode: Defines if players must have cristreecapitator.vip to use this plugin. Useful for VIP systems.
+# 		Default: false
+# 	tp_drops: Defines if drops should be teleported to the player.
+# 		Default: false
+# 	need_axe: While true, an Axe must be used to cut down trees and will be damaged. (This may leave floating trees)
+# 		Default: false
+max_destroy_at_once: 1500
+replant_trees: true
+invincible_replant: false
+vip_mode: false
+tp_drops: false
+need_axe: false

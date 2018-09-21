@@ -1,0 +1,45 @@
+AllowUserModifications: false
+name: blaster
+displayname: '&6§6"Blaster" Pistol'
+id: 72
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,12
+- GOLD_INGOT,0,2
+- REDSTONE,0,5
+weapontype: LAZER
+weaponsounds: bulletswblaster
+_VALID_WEAPON_TYPES: 'PISTOL, SMG, RPG, RIFLE, SHOTGUN, SNIPER, BIG_GUN, GRENADES,
+  SMOKE_GRENADES, FLASHBANGS, INCENDARY_GRENADES, MINES, MEELEE, MISC, AMMO, KEVLAR,
+  MEDKIT, LAZER, '
+enableIronSights: false
+ammotype: fusion_cell
+damage: 4
+maxbullets: 20
+price: 1600
+firerate: 1
+isAutomatic: true
+bullets-per-shot: 1
+addMuzzleSmoke: false
+particles:
+  bullet_particle: REDSTONE
+  bullet_particleR: 1.0
+  bullet_particleG: 0.0
+  bullet_particleB: 0.0
+lore:
+- '&fMiss all the shots you want!'
+invalid: false
+material: DIAMOND_AXE
+durability: 1000
+setZoomLevel: 0
+sway: 0.3
+delayForReload: 1.5
+delayForShoot: 0.3
+maxBulletDistance: 200
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+Version_18_Support: false
+ChargingHandler: none
+drop-glow-color: none
+headshotMultiplier: 2
+swayMultiplier: 2

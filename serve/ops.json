@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "82673b4c-d0ee-37aa-8a96-2ff29ee5ba4b",
+    "name": "Sansão",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6ae9a084-e743-3ed8-80e6-58bd17a660f7",
+    "name": "Bizinn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "668c595c-150e-30ba-9594-055788ea7e12",
+    "name": "DENNERJR",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "83f0191a-eeda-3f92-ba75-52c264b4a1ce",
+    "name": "chabbuh",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4c38b4cc-54fd-33f3-b38a-567def234edf",
+    "name": "bizzin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

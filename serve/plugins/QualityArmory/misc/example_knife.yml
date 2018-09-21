@@ -1,0 +1,15 @@
+AllowUserModifications: false
+invalid: true
+name: ExampleKnife
+displayname: '&7Example Knife'
+lore:
+- Now, this is a knife!
+id: 1
+craftingRequirements:
+- IRON_INGOT,0,15
+- REDSTONE,0,5
+price: 100
+material: IRON_SWORD
+damage: 12
+durability: 100
+MiscType: MEELEE

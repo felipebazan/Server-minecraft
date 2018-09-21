@@ -1,0 +1,13 @@
+AllowUserModifications: false
+invalid: true
+name: exampleSkullAmmo
+displayname: '&7 Example Ammo'
+lore: []
+id: 3
+craftingReturnAmount: 64
+price: 4
+maxAmount: 64
+material: PLAYER_HEAD
+skull_owner: cactus
+skull_owner_custom_url: Dont Use Skin
+piercingSeverity: 1.0

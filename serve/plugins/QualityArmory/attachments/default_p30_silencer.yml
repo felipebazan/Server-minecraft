@@ -1,0 +1,12 @@
+AllowUserModifications: false
+invalid: false
+name: p30silenced
+displayname: §6P30[Silenced]
+lore: []
+id: 42
+craftingRequirements:
+- IRON_INGOT,0,5
+- REDSTONE,0,2
+price: 1000
+material: DIAMOND_AXE
+baseGun: p30
